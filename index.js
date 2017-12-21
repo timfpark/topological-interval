@@ -17,7 +17,7 @@ class IntervalConnection extends DirectConnection {
                         intervalStart: Date.now()
                     }
                 }], err => {
-                    console.log('error enqueuing interval message: ' + err);
+                    if (err) return console.log("Error sending interval message: " + err);
                 });
             }, this.config.interval);
 
