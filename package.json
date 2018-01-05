@@ -9,8 +9,8 @@
   "author": "Tim Park",
   "license": "MIT",
   "dependencies": {
-    "topological": "^1.0.15",
-    "topological-direct": "^1.0.5"
+    "topological": "^1.0.18",
+    "topological-direct": "^1.0.6"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
