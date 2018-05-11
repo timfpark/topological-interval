@@ -10,9 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "topological": "^1.0.18",
-    "topological-direct": "^1.0.6"
+    "topological-direct": "^1.0.8"
   },
   "devDependencies": {
-    "mocha": "^4.0.1"
+    "mocha": "^5.1.1"
   }
 }
